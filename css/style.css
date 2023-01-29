@@ -1,0 +1,129 @@
+/* FONTS */
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url(../css/fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../css/fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "websymbols";
+    src: url(../css/fonts/websymbols-regular-webfont.eot);
+    src: url(../css/fonts/websymbols-regular-webfont.eot?#iefix) format("embedded-opentype"),
+        url(../css/fonts/websymbols-regular-webfont.woff) format("woff"),
+        url(../css/fonts/websymbols-regular-webfont.ttf) format("truetype"),
+        url(../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* general styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/pattern.png);
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.gear {
+    font-family: "websymbols";
+}
+
+/* styles header */
+#header {
+    width: 100%;
+    height: 70px;
+    font-family: "BebasNeue";
+    color: white;
+    background-color: black;
+
+}
+
+#header #logo {
+    width: auto;
+    height: 55px;
+    margin-top: 8px;
+    margin-left: 20px;
+    float: left;
+
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+
+    background-color: #37BCF9;
+
+}
+
+#header #logo h3 {
+    display: block;
+    float: right;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    transition: all 300ms;
+}
+
+#header #logo .gear {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.nav {
+
+    float: right;
+    height: 70px;
+    background-color: black;
+
+}
+
+.nav .nav-list {
+    list-style: none;
+}
+
+.nav .nav-list .nav-item {
+    font-size: 24px;
+    display: block;
+    float: left;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    font-style: none;
+
+}
+
+.nav .nav-list .nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all 200ms;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+
+}
+
+.nav .nav-list .nav-link:hover {
+    color: #37BCF9;
+    transform: scale(1.2, 1.2);
+}
