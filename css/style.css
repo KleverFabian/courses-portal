@@ -39,10 +39,13 @@ body {
     margin: 0px auto;
 }
 
-.gear {
+.gear,.icon {
     font-family: "websymbols";
 }
-
+.clearfix{
+    float: none;
+    clear: both;
+}
 /* styles header */
 #header {
     width: 100%;
@@ -151,4 +154,52 @@ body {
     margin: 27px auto;
     font-weight: normal;
     text-shadow: 2px 2px 1px black;
+}
+
+/* cards */
+#cards{
+  width: 100%;
+
+}
+.card{
+    width: 204px;
+    height: 305px;
+    overflow: hidden;
+    margin: 17px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    float: left;
+    background-color: white;
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+
+.card .icon{
+    display: block;
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    line-height: 130px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.card .category{
+    width: 100%;
+    height: 50px;
+    font-family: "TrebuchetMS";
+    font-size: 20px;
+    font-weight: bold;
+    color: #00538C;
+    text-align: center;
+}
+
+.card .description{
+    text-align: center;
+    font-size: 15px;
+    color: #00538C;
+    font-family: "TrebuchetMS";
+    padding: 5px;
 }
