@@ -325,3 +325,24 @@ input[type="password"]:focus{
     margin-top: 25px;
     height: 30px;
 }
+
+.login input[type="submit"],
+input[type="reset"]{
+    display: block;
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    
+    background: linear-gradient(to button #3eb8e5 0%, #2ca0ca  100%);
+    background-color: #2ca0ca;
+    border: 1px solid #086594;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  
+    font-weight: lighter;
+}
