@@ -397,6 +397,77 @@ input[type="reset"]{
         2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
         margin-top: 20px;
         margin-bottom: 15px;
-        
+
 }
 
+
+#articles article{
+    width: 98%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    padding: 10px;
+    font-family: "TrebuchetMS";
+    background-color: white;
+   color: black;
+   box-shadow: 1px 1px 2px #ddd;
+}
+
+#articles article h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+
+}
+
+#articles article h4 a{
+    text-decoration: none;
+    color: #00538C
+}
+
+#articles article h4 a:hover{
+    text-decoration: underline;
+}
+
+#articles article  .data{
+    float: right;
+    background-color: #393d3f;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -10px;
+    margin-right: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+
+}
+
+#articles article  .data span{
+    margin: 5px;
+}
+
+#articles article  p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+    font-family: "BebasNeue";
+}
+
+.blog  a{
+    font-family: "BebasNeue";
+font-size: 40px;
+letter-spacing: 3px;
+color: #00538C;
+display: block;
+text-decoration: none;
+
+}
