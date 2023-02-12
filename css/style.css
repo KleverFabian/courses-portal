@@ -345,4 +345,20 @@ input[type="reset"]{
     font-size: 15px;
   
     font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.login a{
+    display: block;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+    margin-top: 20px;
+    color:  #555555;
+    
+}
+
+.login a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
 }
