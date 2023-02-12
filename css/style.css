@@ -75,7 +75,11 @@ body {
     background-color: #37BCF9;
 
 }
-
+#header #logo:hover{
+    border-radius: 2px;
+    color: black;
+    background-color: #ccc;
+}
 #header #logo h3 {
     display: block;
     float: right;
@@ -83,6 +87,7 @@ body {
     margin-top: 15px;
     margin-right: 10px;
     transition: all 300ms;
+    
 }
 
 #header #logo .gear {
@@ -92,6 +97,48 @@ body {
     margin-top: 13px;
     margin-left: 20px;
     margin-right: 10px;
+    animation-name: rotate-gear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes rotate-gear {
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(360deg);
+    }
+    
+}
+#header #logo:hover .gear{
+    animation: fromBellow 500ms  linear;
+
+}
+
+@keyframes fromBellow{
+    0%{
+        transform: translateY(0%);
+    }50%{
+        transform: translateY(200%); 
+    }100%{
+        transform: translateY(0%); 
+    }
+}
+
+#header #logo:hover h3{
+    animation: fromRight 300ms  linear;
+
+}
+
+@keyframes fromRight
+{
+    from{
+        transform: translateX(200%);
+    }to{
+        transform:translateX(0%) ;
+    }
+
 }
 
 .nav {
