@@ -95,3 +95,19 @@
         color: white;
     }
 }
+
+@keyframes blogblink {
+    0%{
+        border: 10px solid  #37BCF9!important;
+    }
+    25%{
+        border: 10px solid  green!important;
+    }
+    50%{
+        border: 10px solid  yellow!important;
+    }75%{
+        border: 10px solid  white!important;
+    }100%{
+        border: 10px solid  #37BCF9!important;
+    }
+}
