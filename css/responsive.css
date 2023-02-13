@@ -1,24 +1,143 @@
 @media (max-width:1250px) {
-  .wrap{
-    width: 90%;
-    margin: 0px auto;
-  }
+    .wrap {
+        width: 90%;
+        margin: 0px auto;
+    }
 
-  .card{
-    width: 203px;
-    margin: 10px;
-  }
+    .banner h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
 
-  #articles {
-    width: 65%;
-  }
+    }
 
-  #articles  article{
-    width: 97%;
-  }
+    .card {
+        width: 203px;
+        margin: 10px;
+    }
+
+    .card p {
+        display: block;
+        width: 90%;
+        text-align: ce;
+        margin: 0px auto;
+    }
+
+    #articles {
+        width: 65%;
+    }
+
+    #articles article {
+        width: 97%;
+    }
 
 
-  #footer .wrap > div{
-    width: 24%;
-  }
+    #footer .wrap>div {
+        width: 24%;
+    }
+
+    #footer h5 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1080px) {
+
+    .card {
+        width: 160px;
+        margin: 15px;
+    }
+
+    #articles {
+        width: 61%;
+    }
+
+    #footer .wrap>div {
+        width: 20%;
+    }
+
+    #footer h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1038px) {
+    .card {
+        width: 160px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:1037px) {
+    #footer .wrap>div {
+        width: 19%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .card {
+        width: 150px;
+    }
+
+    #footer .wrap>div {
+        margin: 30px;
+    }
+}
+
+@media(max-width: 970px) {
+    #articles {
+        width: 59%;
+
+    }
+
+    #footer h5 {
+        font-size: 19px;
+    }
+
+
+}
+
+@media(max-width: 925px) {
+    .card {
+        width: 140px;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .sidebar input[type="text"] {
+        width: 78%;
+    }
+
+    .aside-card {
+        width: 95%;
+    }
+
+    .login input[type="email"],
+    input[type="password"] {
+        width: 65%;
+    }
+
+    .login input[type="submit"],
+    input[type="reset"] {
+        width: 80px;
+    }
+
+    .login a{
+        margin-top: 15px;
+    }
+    .login .password {
+        margin-left: 25px;
+    }
+
+    .login .user {
+        margin-left:25px ;
+    }
+
+
+    #footer .wrap>div {
+        margin: 25px;
+    }
+
 }
