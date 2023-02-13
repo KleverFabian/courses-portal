@@ -65,3 +65,33 @@
 
     }
 }
+
+@keyframes showIcon{
+    from{
+        transform: translateY(-200%);
+    }to{
+        transform: translateY(0%);
+    }
+
+}
+
+@keyframes showCategory{
+    from{
+        transform: translateY(-300%);
+        color: black;
+    }
+    to{
+        transform: translateY(0%);
+        color: white;
+    }
+}
+
+@keyframes showDescription{
+    from{
+        transform: translateX(-300%);
+        color: black;
+    }to{
+        transform: translateX(0%);
+        color: white;
+    }
+}
