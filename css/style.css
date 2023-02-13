@@ -103,43 +103,20 @@ body {
     animation-timing-function: linear;
 
 }
-@keyframes rotate-gear {
-    from{
-        transform: rotateZ(0deg);
-    }to{
-        transform: rotateZ(360deg);
-    }
-    
-}
+
 #header #logo:hover .gear{
     animation: fromBellow 500ms  linear;
 
 }
 
-@keyframes fromBellow{
-    0%{
-        transform: translateY(0%);
-    }50%{
-        transform: translateY(200%); 
-    }100%{
-        transform: translateY(0%); 
-    }
-}
+
 
 #header #logo:hover h3{
     animation: fromRight 300ms  linear;
 
 }
 
-@keyframes fromRight
-{
-    from{
-        transform: translateX(200%);
-    }to{
-        transform:translateX(0%) ;
-    }
 
-}
 
 .nav {
 
@@ -191,6 +168,8 @@ body {
     background-image: url(../img/bakbaner.png);
     background-position: -200px -200px;
     margin: 20px;
+    animation: backBanner 10s linear;
+    overflow: hidden;
 }
 
 #banner h1 {
@@ -204,6 +183,7 @@ body {
     margin: 27px auto;
     font-weight: normal;
     text-shadow: 2px 2px 1px black;
+    animation: showtext 15s linear;
 }
 
 /* cards */
